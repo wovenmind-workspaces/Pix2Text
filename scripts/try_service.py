@@ -6,7 +6,7 @@ import requests
 def main():
     url = 'http://0.0.0.0:8503/pix2text'
 
-    image_fp = 'docs/examples/mixed.jpg'
+    image_fp = '/workspace/docs/examples/mixed.jpg'
     data = {
         "use_analyzer": True,
         "resized_shape": 600,
